@@ -47,7 +47,7 @@ int main() {
     bool isFalse = false;
     printf("%d\n", isFalse);
 
-    //==============> Les operateurs <================
+    //==============> Les operateurs arithmétique<================
 
     ageofGradution = yearOfGradtion - yearofbirth;   //soustraction
     printf("My age when a graduted was : %d\n",ageofGradution);
@@ -60,5 +60,20 @@ int main() {
     rest = a % b ;      // renvoie le reste lorsque le premier opérande est divisé par le second
     printf("le rest de la division est : %d",rest);
     
+     div = a / b ;// divise le premier opérande par le second.
+    rest = a % b ;// renvoie le reste lorsque le premier opérande est divisé par le second
+    printf("le resultat de la division est : %d \nle rest de la division est : %d\n",div,rest);
+
+    //==============> Les operateurs relationelles<================
+    if(age >= 18)// vérifie si le premier opérande est supérieur ou égal au deuxième opérande.
+    {
+       printf("I'm an adult\n");
+    }else printf("Still a teenager !\n");
+    if(score < 100)// vérifie si le premier opérande est inférieure au deuxième opérande.
+    {
+        printf("I have low score i need to work on my skills\n");
+    }else if(score == 100)//vérifie si les deux opérandes sont égales ou non.
+    {printf("My score is average\n");
+    }else printf("My score is good");
     return 0;
 };
