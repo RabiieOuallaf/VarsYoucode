@@ -63,5 +63,28 @@ int main() {
     rest = a % b ;      // renvoie le reste lorsque le premier opérande est divisé par le second
     printf("le rest de la division est : %d",rest);
     
+<<<<<<< HEAD
     return 0;
 };
+=======
+    //==============> Les operateurs relationelles<================
+    if(age >= 18)// vérifie si le premier opérande est supérieur ou égal au deuxième opérande.
+    {
+       printf("I'm an adult\n");
+    }
+    else printf("Still a teenager !\n");
+    
+    
+    if(score < 100)// vérifie si le premier opérande est inférieure au deuxième opérande.
+    {
+        printf("I have low score i need to work on my skills\n");
+    }
+    else if(score == 100)//vérifie si les deux opérandes sont égales ou non.
+    {
+        printf("My score is average\n");
+    }
+    else printf("My score is good");
+    
+    return 0;
+};
+>>>>>>> 817c94a86382ca211453609bce2812d2627d265e
