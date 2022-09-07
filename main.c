@@ -59,6 +59,7 @@ int main() {
     printf("le resultat de la division est : %d \n",div);
     rest = a % b ;      // renvoie le reste lorsque le premier opérande est divisé par le second
     printf("le rest de la division est : %d",rest);
+    // test
     
     return 0;
 };
