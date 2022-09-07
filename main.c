@@ -32,10 +32,6 @@ int main() {
     bool isFalse = false;
     printf("%d", isFalse);
 
-    int AGE; 
-
-    printf("how old are you ? : /n ");
-    scanf("%d", &AGE);
 
     return 0;
 };
