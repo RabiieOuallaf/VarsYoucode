@@ -4,7 +4,7 @@
 
 int main() {
 
-    // Types of variables ::
+    // Types of variables :
 
     //==============> Entier (int / long) <================
 
@@ -63,6 +63,5 @@ int main() {
     rest = a % b ;      // renvoie le reste lorsque le premier opérande est divisé par le second
     printf("le rest de la division est : %d",rest);
     
-    // helo
     return 0;
 };
