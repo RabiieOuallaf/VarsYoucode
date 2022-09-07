@@ -77,7 +77,6 @@ int main() {
         printf("My score is average\n");
     }
     else printf("My score is good");
-    return 0;
     
     return 0;
 };
